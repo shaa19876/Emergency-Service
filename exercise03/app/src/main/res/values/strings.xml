@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">App for officers</string>
+    <string name="zones">Zones</string>
+    <string name="incidents">Incidents</string>
+    <string name="cordX">X cord</string>
+    <string name="cordY">Y cord</string>
+    <string name="description">Description</string>
+    <string name="phone">Phone</string>
+    <string name="type">Type</string>
+    <string name="status">Status</string>
+    <string name="id">ID</string>
+    <string name="name">Name</string>
+    <string name="cords">Cords</string>
+    <string name="radius">Radius</string>
+
+</resources>

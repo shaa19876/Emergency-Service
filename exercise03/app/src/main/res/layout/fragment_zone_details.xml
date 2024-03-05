@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".zones.view.ZoneDetailsFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textZoneName"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/name" />
+
+    <TextView
+        android:id="@+id/textZoneCords"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/cords" />
+
+    <TextView
+        android:id="@+id/textZoneRadius"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:hint="@string/radius"
+        android:textColor="@color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textZonePhone"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/phone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerZoneIncidents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

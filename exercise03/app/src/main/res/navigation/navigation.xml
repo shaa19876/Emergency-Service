@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/mainFragment">
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.appforofficers.general.view.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_zoneDetailsFragment"
+            app:destination="@id/zoneDetailsFragment"
+            app:popUpTo="@id/mainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_incidentsFragment"
+            app:destination="@id/incidentsFragment"
+            app:popUpTo="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/zoneDetailsFragment"
+        android:name="com.example.appforofficers.zones.view.ZoneDetailsFragment"
+        android:label="fragment_zone_details"
+        tools:layout="@layout/fragment_zone_details" />
+    <fragment
+        android:id="@+id/incidentsFragment"
+        android:name="com.example.appforofficers.incidents.view.IncidentsFragment"
+        android:label="fragment_incidents"
+        tools:layout="@layout/fragment_incidents" />
+</navigation>

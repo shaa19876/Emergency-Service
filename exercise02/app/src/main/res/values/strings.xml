@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">exercise02</string>
+    <string name="zones">Zones</string>
+    <string name="incidents">Incidents</string>
+</resources>

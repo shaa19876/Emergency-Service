@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardIncident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textIncidentType"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/type"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/textIncidentStatus"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="5dp"
+            android:hint="@string/status"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
